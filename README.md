@@ -22,3 +22,12 @@ However since FINAL methods cannot be overridden, a call to on can be resolved a
 * If an interface inherits another with both defining a common default method the inheriting interface's version of the method take higher precedence. 
 * If an interface inherits and the class overrides the method, the class will take precedence.
 * You can use super keyword to refer to the default implementation. Only for default methods
+
+# EXCEPTIONS
+
+* To manually throw an exceptions, use throw keyword
+* Any exception that is thrown out of the method must be specified as such using the throws keyword
+* If you want to create your own exception class extend Exception class.
+* Unreachable code in java is an error.
+* unchecked exceptions -> RuntimeExceptions -> the compiler does not check to see if a method handles or throws these exceptions.
+
